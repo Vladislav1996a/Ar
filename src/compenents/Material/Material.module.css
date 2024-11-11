@@ -1,0 +1,32 @@
+.wrap {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1A1A1A;
+    width: 80px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: none;
+    align-items: center;
+    border: 1px solid rgba(26, 26, 26, 1);
+}
+
+.container {
+    padding-top: 14px;
+    margin-top: 4px;
+}
+
+.active {
+    border: 1px solid rgba(65, 105, 225, 1);
+    color: rgba(65, 105, 225, 1);
+}

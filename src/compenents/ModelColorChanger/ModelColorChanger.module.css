@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    max-width: 210px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1A1A1A;
+    padding-top: 20px;
+    padding-top: 14px;
+    margin-top: 4px;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    gap: 14px;
+    padding-top: 9px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(26, 26, 26, 1);
+    border-radius: 50%;
+}
+
+.wrap {
+    padding: 3px;
+    margin-bottom: 3px;
+    border: 1px solid transparent;
+}
+
+.active {
+    
+    border: 1px solid rgba(65, 105, 225, 1);
+    border-radius: 50%;
+}
+
+.textActive {
+    color: rgba(65, 105, 225, 1);
+}
