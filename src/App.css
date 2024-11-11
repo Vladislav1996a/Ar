@@ -2,9 +2,16 @@
     position: absolute;
     bottom: 26px;
     margin: 0 auto;
-    max-width: 864px;
+    padding: 0 15px;
+    max-width: 894px;
     left: 0;
     right: 0;
     justify-content: space-between;
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }

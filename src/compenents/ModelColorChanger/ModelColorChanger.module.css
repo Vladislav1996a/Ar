@@ -7,7 +7,6 @@
     font-size: 12px;
     line-height: 15px;
     color: #1A1A1A;
-    padding-top: 20px;
     padding-top: 14px;
     margin-top: 4px;
 }
@@ -24,6 +23,7 @@
     height: 40px;
     background-color: rgba(26, 26, 26, 1);
     border-radius: 50%;
+    background-size: cover;
 }
 
 .wrap {
@@ -40,4 +40,11 @@
 
 .textActive {
     color: rgba(65, 105, 225, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .circle {
+        width: 28px;
+        height: 28px;
+    }
 }

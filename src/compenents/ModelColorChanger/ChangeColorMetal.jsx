@@ -14,7 +14,7 @@ export const ChangeColorMetal = ({title, colors, color, setColorBody }) => {
               }`}
             >
               <div
-                style={{background:`url(${item.img})`}}
+                style={{backgroundImage:`url(${item.img})`}}
                 className={`${styles.circle}`}
               ></div>
             </div>
